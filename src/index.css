@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+  color: #fff;
+}
+body{
+  background-color: #000000;
+}
+#employeedashboard{
+  background-image: url(/src/images/form_bg/employeedash_BG.avif);
+  background-size: cover;  /* Ensures full coverage */
+  background-position: center;  /* Centers the image */
+  background-repeat: no-repeat;  /* Stops repeating */
+  height: full;  /* Full screen height */
+  width: full;
+}
+#admindash{
+  background-image: url(/src/images/form_bg/gradient-abstract-wireframe-background_23-2149009903.avif);
+
+  background-size: cover;  /* Ensures full coverage */
+  background-position: center;  /* Centers the image */
+  background-repeat: no-repeat;  /* Stops repeating */
+  height: full;  /* Full screen height */
+  width: full;  /* Full screen width */
+}
+#tasklist::-webkit-scrollbar{
+  display:none
+}
+#alltasksadmin::-webkit-scrollbar{
+  display:none
+}
+/* #adminform{
+  background-image: url(/src/images/form_bg/Screenshot_3.png);
+} */
+ #createtaskbtnadmin:hover{
+  background-color:#000000;
+  color: #79fff2;
+ }
+ #logoutbtn:hover{
+  background-color: #f70505;
+  
+ }
+ #employeetask:hover{
+  background-color: #a2fcff2f;
+ }
